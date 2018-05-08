@@ -1,5 +1,8 @@
 import sys
 
+if len(sys.argv) != 3:
+	sys.exit("Error, invalid number of arguments")
+
 #Since we cant do int comparisons on strings stop program if not given
 #an int
 try:
