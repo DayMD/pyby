@@ -13,7 +13,7 @@ except ValueError:
 lBool = False
 
 if count > 10:
-	print "Count must be less than 10"
+	sys.exit("Count must be less than 10")
 
 if sys.argv[1] == "left":
 	for x in range(0, count):
