@@ -10,7 +10,7 @@ try:
 except ValueError:
 	sys.exit("Error: Second value not a number")
 
-lBool = False
+
 
 if count > 10:
 	sys.exit("Count must be less than 10")
@@ -25,6 +25,7 @@ elif sys.argv[1] == "right":
 	
 
 elif sys.argv[1] == "dance":
+	lBool = False
 	for x in range(0, count):
 		if (lBool):
 			print "(>-_-)>"
